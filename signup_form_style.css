@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.maindiv{
+    display: flex;
+    transform: translate(30%, 3%);
+    width: fit-content;
+    height: fit-content;
+    border-top: 0.1vw solid black;
+    border-right: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
+    border-left: 0.4vw solid rgb(71, 46, 0);
+}
+.top{
+    display: flex;
+    transform: translate(55%, -150%);
+}
+.top a:active{
+    transform: translate(-3px, 2px);
+}
+.top a{
+    padding: 2px 6px 2px 6px;
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+}
+.formdiv{
+    padding: 4vw 0vw 4vw 0vw;
+    width: 40vw;
+    height: fit-content;
+}
+.formdiv h2, .formdiv h3, form{
+    transform: translateX(15%);
+}
+#text:hover, #email:hover, #paswd:hover{
+    border:2px solid black;
+}
+#text, #email{
+    margin-top: 0.5vw;
+    width: 28vw;
+    height: 2.5vw;
+}
+#paswd{
+    margin-top: 0.5vw;
+    width: 13.7vw;
+    height: 2.5vw;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}
+input[type=checkbox]:hover{
+    border-radius: 5vw;
+}
+#btn1:hover, #btn2:hover{
+    box-shadow: 2px 2px gray;
+}
+#btn1:active, #btn2:active{
+    background-color: rgb(31, 31, 31);
+    box-shadow: 0px 4px #ffffff;
+    transform: translateY(4px);
+}
+#btn1{
+    margin-left: 4.6vw;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 0.4vw;
+    width: 18vw;
+    height: 2.6vw;
+}
+#btn2{
+    margin-left: 4.5vw;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0.4vw;
+    align-items: center;
+    width: 18vw;
+    height: 2.6vw;
+}
+#btn2 img{
+    width: 25px;
+    height: 25px;
+}
+.divR{
+    width: fit-content;
+    height: 43vw;
+    background-color: rgb(213, 166, 78);
+    text-align: center;
+}
+.divR p{
+    padding-top: 2vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: gold;
+    font-size: large;
+}
+.divR img{
+    transform: translateY(66%);
+    width: 18vw;
+}
